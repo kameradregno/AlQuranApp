@@ -7,6 +7,7 @@
     android:clickable="true"
     android:focusable="true"
     app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/brown"
     app:cardUseCompatPadding="true"
     app:contentPadding="6dp">
 
@@ -30,7 +31,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            android:textColor="@color/surface_container"
+            android:textColor="@color/white"
             android:textSize="22sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,6 +45,7 @@
             android:layout_marginTop="12dp"
             android:textSize="14sp"
             android:textStyle="bold"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/item_ayah" />
