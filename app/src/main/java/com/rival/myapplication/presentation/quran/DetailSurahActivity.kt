@@ -72,6 +72,7 @@ class DetailSurahActivity : AppCompatActivity() {
         view.apply {
             tvSurah.text = surah?.englishName
             tvName.text = surah?.name
+            tvDetailNameTranslation.text = surah?.englishNameTranslation
             tvNumberAyah.text = "Ayah ${dataAudio.numberInSurah}"
         }
 

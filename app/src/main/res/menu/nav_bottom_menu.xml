@@ -4,8 +4,4 @@
         android:id="@+id/nav_quran"
         android:icon="@drawable/logo_quran"
         android:title="@string/quran" />
-    <item
-        android:id="@+id/nav_adzan"
-        android:icon="@drawable/ic_adzan"
-        android:title="@string/adzan" />
 </menu>

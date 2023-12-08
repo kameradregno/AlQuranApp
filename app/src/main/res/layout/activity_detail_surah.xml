@@ -21,10 +21,10 @@
 
             <TextView
                 android:id="@+id/tv_detail_surah"
-                android:layout_width="134dp"
-                android:layout_height="34dp"
-                android:layout_marginTop="16dp"
+                android:layout_width="171dp"
+                android:layout_height="39dp"
                 android:layout_marginStart="5dp"
+                android:layout_marginTop="16dp"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="24sp"
@@ -38,14 +38,14 @@
 
             <TextView
                 android:id="@+id/tv_detail_name_translation"
-                android:layout_width="137dp"
-                android:layout_height="34dp"
+                android:layout_width="150dp"
+                android:layout_height="47dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="5dp"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textStyle="italic"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/tv_detail_surah"
                 app:layout_constraintTop_toTopOf="parent" />
